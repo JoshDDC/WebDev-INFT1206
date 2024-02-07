@@ -1,6 +1,16 @@
+/*
+         Name:Joshua Davis
+
+         File: style.css 
+
+         Date: Feb 7 2024 
+
+         Part 2 of assignment 3. Style for the cool red box
+*/
 html {
   font-family: sans-serif;
 }
+
 div {
   width: 200px;
   margin:auto;
@@ -19,4 +29,3 @@ div {
   box-shadow: -3px -3px 3px black inset, 3px 3px 3px white inset;
   
 }
-/* Your CSS below here */
