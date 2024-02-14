@@ -43,3 +43,54 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+body {
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 1px; /* i dont believe it is needed but it is asked to do so */
+  word-spacing:1px; /* i dont believe it is needed but it is asked to do so */
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+h1,h2{
+  letter-spacing:1px; /* i dont believe it is needed but it is asked to do so */
+}
+
+section{
+  text-indent:20px;
+}
+
+a:hover, a:visited, a:focus{
+  color:#a66;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a:focus{
+  outline:none;
+}
+a:active{
+  color:#55a;
+  text-decoration:dotted;
+}
+
+ul, ol {
+  list-style:square;
+}
+li {
+  line-height:1.7;
+}
